@@ -7,3 +7,10 @@ The update frequency may be irregular because I'm quite busy, but feel free to l
 
 ## Related tools
 It is highly recommended to write latex in Visual Studio Code with Latex Workshop which you can find in the marketplace.
+
+## Usage
+Use below command to create a new document named DOC from template named TEM. You can get all existed templates with `python3 main.py -l`.
+You can find your documents in directory `./documents`.
+```python
+python3 main.py -t TEM -d DOC
+```
